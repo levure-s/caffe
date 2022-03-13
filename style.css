@@ -82,11 +82,11 @@ footer p{
     padding: 0 1em;
 }
 
-.top3 .flex{
+.new .flex{
     justify-content: space-evenly;
 }
 
-.top3 img{
+.new img{
     width: 80%;
 }
 
@@ -133,7 +133,7 @@ footer p{
         float: right;
     }
 
-    .top3 .img_container{
+    .new .img_container{
         width: 50%;
         margin-left: 50%;
         transform: translateX(-50%);
