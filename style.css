@@ -86,6 +86,10 @@ footer p{
     justify-content: space-evenly;
 }
 
+.top3 img{
+    width: 80%;
+}
+
 .number{
     font-size: 1.5em;
     font-weight: bold;
@@ -131,10 +135,6 @@ footer p{
         transform: translateX(-50%);
         font-size: 3em;
         padding-top: 0;
-    }
-
-    .top3 img{
-        width: 80%;
     }
 
     .area  .img_container{
