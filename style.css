@@ -120,6 +120,10 @@ footer p{
         padding: 1em;
     }
 
+    .about .caption, .info .caption{
+        padding: 1em 0;
+    }
+
     .about .caption{
         font-size: 95%;
     }
