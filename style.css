@@ -137,7 +137,7 @@ footer p{
         padding-top: 0;
     }
 
-    .area  .img_container{
+    .info  .img_container{
         width: 50%;
         position: absolute;
         bottom: 5em;
@@ -153,7 +153,7 @@ footer p{
         font-size: 2em;
     }
 
-    .area{
+    .info{
         position: relative;
         padding-bottom: 30em;
     }
