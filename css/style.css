@@ -1,5 +1,5 @@
 p {
-  font-family: "YuMincho";
+  font-family: "YuMincho", serif;
 }
 
 img {
@@ -40,7 +40,7 @@ footer p {
 }
 
 .caption {
-  font-family: "Meiryo";
+  font-family: "Meiryo", sans-serif;
   font-weight: bold;
   color: #522411;
   padding-bottom: 8px;
@@ -100,7 +100,9 @@ footer p {
 .number {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: Monotype Corsiva;
+  font-family:
+    Monotype Corsiva,
+    cursive;
 }
 
 .menu_container {
