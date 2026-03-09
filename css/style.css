@@ -6,6 +6,11 @@ img {
   max-width: 100%;
 }
 
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 footer p {
   color: #fff;
   text-align: center;
