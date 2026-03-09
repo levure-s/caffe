@@ -1,0 +1,197 @@
+p {
+  font-family: "YuMincho";
+}
+
+img {
+  max-width: 100%;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.unit {
+  font-size: 0.5em;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.back_brown {
+  background-color: #522411;
+}
+
+.contents {
+  padding: 3em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.caption {
+  font-family: "Meiryo";
+  font-weight: bold;
+  color: #522411;
+  padding-bottom: 8px;
+}
+
+.text_yellow {
+  color: #f3edbd;
+  text-shadow:
+    1px 1px 0 #522411,
+    -1px 1px 0 #522411,
+    1px -1px 0 #522411,
+    -1px -1px 0 #522411;
+  font-size: 1.5em;
+  padding-bottom: 2em;
+}
+
+.long-text {
+  line-height: 1.2;
+}
+
+.titile_container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60%;
+}
+
+.logo img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.photo_top {
+  width: 40%;
+}
+
+.img_container {
+  width: 20%;
+}
+
+.text_container {
+  width: 80%;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+.author {
+  padding-bottom: 24px;
+}
+
+.pickup img {
+  width: 80%;
+}
+
+.number {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Monotype Corsiva;
+}
+
+.menu_container {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu_item {
+  width: 30%;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.menu_item .img_container {
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+.info-block {
+  padding-bottom: 24px;
+}
+
+@media (max-width: 725px) {
+  .main_container {
+    padding-top: 2em;
+  }
+
+  .contents {
+    padding: 1em;
+  }
+
+  .text_yellow {
+    padding-bottom: 1em;
+  }
+
+  .about .caption,
+  .info .caption {
+    padding-bottom: 1em;
+  }
+
+  .about .caption {
+    font-size: 95%;
+  }
+
+  .text_container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about .text_container {
+    padding-bottom: 16px;
+  }
+
+  .img_container {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 16px;
+  }
+
+  .menu_item {
+    width: 48%;
+  }
+}
+
+@media (max-width: 483px) {
+  .img_container {
+    width: 80%;
+  }
+
+  .text_yellow {
+    padding-bottom: 0.5em;
+  }
+
+  .about .img_container {
+    width: 60%;
+  }
+
+  .about .caption br {
+    display: none;
+  }
+
+  .menu .caption {
+    text-align: center;
+  }
+
+  .menu_item {
+    width: 100%;
+  }
+
+  .menu_item .img_container {
+    width: 80%;
+  }
+}
